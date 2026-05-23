@@ -728,7 +728,7 @@
     <!-- Update downloader -->
     <string name="snackbar_update">Доступне оновлення</string>
     <string name="snackbar_update_multiple">Доступні оновлення</string>
-    <string name="snackbar_update_button">View</string>
+    <string name="snackbar_update_button">Переглянути</string>
     <string name="update_notification">Версія uTag %1s</string>
     <string name="update_notification_mod">Версія SmartThings %1s</string>
     <string name="update_title_utag">Оновлення uTag</string>
@@ -770,21 +770,21 @@
     <string name="notification_channel_unknown_tag_title">Unknown Tag Alerts</string>
     <string name="notification_channel_unknown_tag_content">Notifications shown when an unknown Tag may be tracking you</string>
     <!-- Search nearby -->
-    <string name="nearby_loading">Connecting to %1s…</string>
+    <string name="nearby_loading">З\'єднання з %1s…</string>
     <string name="nearby_loading_sub"><b>Note:</b> If your Tag is nearby but failing to connect, try turning Bluetooth off and on again or rebooting.</string>
     <string name="nearby_its_far_away">It\'s far away</string>
     <string name="nearby_its_here">It\'s here</string>
-    <string name="nearby_its_near_you">It\'s near you</string>
-    <string name="nearby_its_not_far_from_here">It\'s not far from here</string>
+    <string name="nearby_its_near_you">Вона поруч з Вами</string>
+    <string name="nearby_its_not_far_from_here">Вона недалеко звідси</string>
     <string name="nearby_look_around_this_area">Look around this area</string>
     <string name="nearby_distance_metres">%1sm away</string>
     <string name="nearby_distance_feet">%1sft away</string>
-    <string name="nearby_turn_left">Turn left</string>
-    <string name="nearby_turn_right">Turn right</string>
+    <string name="nearby_turn_left">Поверніть ліворуч</string>
+    <string name="nearby_turn_right">Поверніть праворуч</string>
     <string name="nearby_look_up">Look up</string>
     <string name="nearby_look_down">Look down</string>
     <string name="nearby_go_forward">Go forward</string>
-    <string name="nearby_its_behind_you">It\'s behind you</string>
+    <string name="nearby_its_behind_you">Вона позаду вас</string>
     <string name="nearby_move_around">Move around to find the Tag</string>
     <string name="nearby_signal_weaker">Signal getting weaker</string>
     <string name="nearby_signal_stronger">Signal getting stronger</string>
@@ -853,9 +853,9 @@
     <string name="refresh_period_three_hours">3 години</string>
     <string name="refresh_period_four_hours">4 години</string>
     <string name="refresh_period_six_hours">6 годин</string>
-    <string name="refresh_period_twelve_hours">12 hours</string>
-    <string name="refresh_period_twenty_four_hours">24 hours</string>
-    <string name="refresh_period_never">Never</string>
+    <string name="refresh_period_twelve_hours">12 годин</string>
+    <string name="refresh_period_twenty_four_hours">24 години</string>
+    <string name="refresh_period_never">Ніколи</string>
     <!-- Safe Area -->
     <string name="notification_title_safe_area">Safe Area</string>
     <string name="notification_content_safe_area_error_permissions">Unable to set up uTag Safe Areas. Check Location permissions are set to \"Allow all the time\" for uTag.</string>
@@ -908,7 +908,7 @@
     <string name="safe_area_location_name_title">Назва</string>
     <string name="safe_area_location_name_content_empty">Automatically generate</string>
     <string name="safe_area_location_name_dialog_message">Enter a memorable name for this Safe Area. If left blank, uTag will try to generate one from the approximate address of the location.</string>
-    <string name="safe_area_location_radius_title">Radius</string>
+    <string name="safe_area_location_radius_title">Радіус</string>
     <string name="safe_area_location_radius_content">The size of this safe area</string>
     <string name="safe_area_location_exit_buffer_title">Exit Buffer</string>
     <string name="safe_area_location_exit_buffer_content">Additional buffer time between exiting this Safe Area and Tags being considered \"unsafe\": %1s.\n\nThis is useful if you find that you leave the location before the Tag disconnects, but that it was left within the Safe Area.</string>
@@ -930,11 +930,11 @@
     <string name="unsupported_intent_dialog_close">Закрити</string>
     <string name="unsupported_intent_dialog_github">GitHub</string>
     <!-- Location Staleness -->
-    <string name="location_staleness_none">Disabled</string>
-    <string name="location_staleness_thirty_seconds">30 seconds</string>
-    <string name="location_staleness_one_minute">1 minute</string>
-    <string name="location_staleness_two_minutes">2 minutes</string>
-    <string name="location_staleness_three_minutes">3 minutes</string>
+    <string name="location_staleness_none">Вимкнено</string>
+    <string name="location_staleness_thirty_seconds">30 секунд</string>
+    <string name="location_staleness_one_minute">1 хвилина</string>
+    <string name="location_staleness_two_minutes">2 хвилини</string>
+    <string name="location_staleness_three_minutes">3 хвилини</string>
     <!-- Widget -->
     <string name="widget_location">Tag Locations</string>
     <string name="widget_history">Tag Location History</string>
@@ -1087,7 +1087,7 @@
     <string name="debug_error_notification_title">uTag Error Caught</string>
     <string name="debug_error_notification_content">Tap to view &amp; save</string>
     <!-- Debug error viewer -->
-    <string name="debug_error_dialog_title">Error Details</string>
+    <string name="debug_error_dialog_title">Відомості про помилку</string>
     <string name="debug_error_dialog_close">Закрити</string>
     <string name="debug_error_dialog_copy">Копіювати</string>
 </resources>
