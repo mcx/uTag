@@ -60,12 +60,12 @@
     <string name="setup_account">Обліковий запис</string>
     <string name="account_title">Sign in to SmartThings</string>
     <string name="account_content">For uTag to be able to communicate with SmartThings, you must sign in with your Samsung account.</string>
-    <string name="account_warning_title">How can I trust uTag?</string>
-    <string name="account_warning_content_header">Since uTag requires signing into your Samsung account, how do you know you can trust uTag?</string>
-    <string name="account_warning_content_b1">uTag uses the official Samsung Login, in your browser (check the URL)</string>
-    <string name="account_warning_content_b2">Your password is not visible to nor can it be saved by uTag and access tokens are kept encrypted on device</string>
-    <string name="account_warning_content_b3">uTag is open source and you can inspect the login code on GitHub</string>
-    <string name="account_warning_content_footer"><b>Please note that official builds of uTag are only available on GitHub and APKMirror. If you installed uTag from another source, login safety cannot be guaranteed and you should reinstall uTag from a legitimate source.</b></string>
+    <string name="account_warning_title">Чому я можу довіряти uTag?</string>
+    <string name="account_warning_content_header">Оскільки uTag вимагає входу до Вашого облікового запису Samsung, то як Ви можете довіряти uTag?</string>
+    <string name="account_warning_content_b1">uTag використовує офіційний вхід до облікового запису Samsung через браузер (перевірте URL)</string>
+    <string name="account_warning_content_b2">Ваш пароль не видимий і не може бути збережений uTag, також токени доступу зберігаються в зашифрованому вигляді на пристрої</string>
+    <string name="account_warning_content_b3">uTag має відкритий вихідний код і Ви можете перевірити код входу на GitHub</string>
+    <string name="account_warning_content_footer"><b>Зверніть увагу, що офіційні збірки uTag доступні лише на GitHub та APKMirror. Якщо Ви встановили uTag з іншого джерела, безпеку входу не може бути гарантовано, і Ви повинні перевстановити uTag з перевіреного джерела.</b></string>
     <string name="account_sign_in">Увійти</string>
     <string name="account_error_title">Помилка</string>
     <string name="account_error_content">An error occurred starting the sign in process, please check your connection and try again</string>
@@ -91,7 +91,7 @@
     <string name="settings_main_xposed_error_content">The uTag SmartThings modification is not installed. If you are using Xposed, make sure it\'s enabled for SmartThings and reboot your device. If you\'re not rooted, make sure the modified version is installed.</string>
     <string name="settings_main_smartthings_title">Looking for SmartTag options?</string>
     <string name="settings_main_smartthings_content">Settings &amp; tracking for SmartTags can be accessed from the SmartThings app</string>
-    <string name="settings_main_smartthings_open">Open SmartThings</string>
+    <string name="settings_main_smartthings_open">Відкрити SmartThings</string>
     <string name="settings_main_permissions_title">Необхідні додаткові дозволи</string>
     <string name="settings_main_permissions_content">SmartThings requires the \"Allow all the time\" location permission &amp; \"Nearby devices\"</string>
     <string name="settings_main_permissions_action">Дозволити у Налаштуваннях</string>
@@ -130,14 +130,14 @@
     <string name="settings_location_location_battery_saver_content">Update Tag locations when Battery Saver is enabled</string>
     <string name="settings_location_location_staleness_title">Acceptable Staleness</string>
     <string name="settings_location_location_staleness_content">How old a location can be for it still to be used in location updates: %1s</string>
-    <string name="settings_location_location_staleness_none">Uses more battery</string>
-    <string name="settings_location_location_staleness_max">Location updates may be outdated</string>
+    <string name="settings_location_location_staleness_none">Використовує більше заряду батареї</string>
+    <string name="settings_location_location_staleness_max">Оновлення розташування можуть бути застарілі</string>
     <string name="settings_location_location_safe_area_title">Безпечні місця</string>
     <string name="settings_location_location_safe_area_content">Додавання та налаштування безпечних місць для Ваших міток</string>
     <string name="settings_location_category_chaser_title">Find my Everything Network</string>
     <string name="settings_location_chaser_title">Contribute to Find my Everything Network</string>
     <string name="settings_location_chaser_content">Send location updates for detected nearby Tags to Find my Everything network</string>
-    <string name="settings_location_chaser_disabled">Not available on this device</string>
+    <string name="settings_location_chaser_disabled">Недоступно на цьому пристрої</string>
     <string name="settings_location_category_uts_title">Невідомі мітки</string>
     <string name="settings_location_uts_title">Сканування невідомих міток</string>
     <string name="settings_location_uts_content">Scan for unknown Tags and notify you when you may be being tracked</string>
@@ -172,24 +172,24 @@
     <string name="settings_chaser_error_content">An error occurred loading the certificate required for this feature, so it is not available on your device.</string>
     <string name="settings_chaser_toast">Grant in settings</string>
     <!-- Settings > Location > Unknown Tag Scan -->
-    <string name="settings_uts_title">Scan for unknown Tags</string>
+    <string name="settings_uts_title">Сканування невідомих міток</string>
     <string name="settings_uts_switch">Увімкнути сканування</string>
-    <string name="settings_uts_info_title">Unknown Tag Scanning</string>
+    <string name="settings_uts_info_title">Сканування невідомих міток</string>
     <string name="settings_uts_info_content">When enabled, uTag will scan for unknown Tags and note their location during location refreshes. If they meet the criteria for you possibly being tracked, a notification will be displayed for you to take action.\n\nFor a Tag to trigger an Unknown Tag Alert, it must be disconnected from its owner for 24 hours, and been detected in multiple locations (at least 500 metres apart) over the space of at least 30 minutes.</string>
     <string name="settings_uts_view_unknown_title">View Unknown Tags</string>
     <string name="settings_uts_list_title">View Unknown Tags</string>
     <string name="settings_uts_list_info_title">Невідомі мітки</string>
     <string name="settings_uts_list_info_content">Unknown Tags are stored for 24 hours. If you interact with them, no indication is sent to their owner.</string>
     <string name="settings_uts_category_settings">Налаштування</string>
-    <string name="settings_uts_sensitivity_title">Sensitivity</string>
+    <string name="settings_uts_sensitivity_title">Чутливість</string>
     <string name="settings_uts_sensitivity_content">Higher sensitivities may cause false positives, lower sensitivities may take longer to detect an Unknown Tag which is following you.</string>
     <string name="settings_uts_list_unknown_tag_title">Невідома мітка %1s</string>
-    <string name="settings_uts_list_unknown_tag_content">Last seen %1s</string>
+    <string name="settings_uts_list_unknown_tag_content">Востаннє бачили %1s</string>
     <string name="settings_uts_list_unknown_tag_content_at">Востаннє відображалася в %1s</string>
     <string name="settings_uts_list_unknown_tag_safe">Скинути безпечні мітки</string>
     <string name="settings_uts_list_empty_title">Невідомих міток не виявлено</string>
     <string name="settings_uts_list_empty_content">No Tags have been detected nearby, or they have not met the criteria to be possibly tracking you.\n\nFor a Tag to trigger an Unknown Tag Alert, it must be disconnected from its owner for 24 hours, and been detected in multiple locations (at least 500 metres apart) over the space of at least 30 minutes.</string>
-    <string name="settings_uts_list_tag_clear_safe_dialog_title">Clear Safe Tags?</string>
+    <string name="settings_uts_list_tag_clear_safe_dialog_title">Очистити Безпечні мітки?</string>
     <string name="settings_uts_list_tag_clear_safe_dialog_content">This will reset Safe Tags, showing all Unknown Tags in the list and show future notifications if they are detected again.</string>
     <string name="settings_uts_list_tag_clear_safe_dialog_positive">Очистити</string>
     <string name="settings_uts_list_tag_clear_safe_dialog_negative">Скасувати</string>
@@ -239,7 +239,7 @@
     <!-- Settings > Advanced -->
     <string name="settings_advanced_analytics_title">Аналітика та звіти про помилки</string>
     <string name="settings_advanced_analytics_content">Enable anonymous analytics &amp; crash reporting to help in the development of uTag</string>
-    <string name="settings_advanced_content_creator_title">Content Creator Mode</string>
+    <string name="settings_advanced_content_creator_title">Режим творця контенту</string>
     <string name="settings_advanced_content_creator_content">Hide your location in the uTag UI, for when taking screenshots or recording video of uTag.</string>
     <string name="settings_advanced_content_creator_enabled">Увімкнено</string>
     <string name="settings_advanced_auto_dismiss_notifications_title">Auto Dismiss Left Behind Notifications</string>
@@ -278,7 +278,7 @@
     <string name="map_error_content">An error occurred, please try again later (%1d)</string>
     <string name="map_error_no_tags_content">You don\'t have any Tags available on this account</string>
     <string name="map_error_close">Закрити</string>
-    <string name="map_error_open_settings">Open Settings</string>
+    <string name="map_error_open_settings">Відкрити налаштування</string>
     <string name="map_error_no_smartthings_content">uTag could not connect to SmartThings. Check it\'s installed and try again later.</string>
     <string name="map_error_mod_not_activated_xposed_content">The uTag mod for SmartThings is not enabled. If you\'re using Xposed, check it\'s enabled and reboot your device. If you\'re not using Xposed, follow the instructions to install the modded SmartThings from uTag\'s settings.</string>
     <string name="map_error_mod_not_activated_patch_content">The uTag mod for SmartThings is not enabled. Follow the instructions to install the modded SmartThings from uTag\'s settings to fix this.</string>
@@ -305,12 +305,12 @@
     <string name="map_bluetooth_disabled">Bluetooth вимкнено</string>
     <string name="map_offline">Не вдалося оновити</string>
     <string name="map_ring">Дзвінок</string>
-    <string name="map_location_history">Location history</string>
+    <string name="map_location_history">Історія розташування</string>
     <string name="map_refresh">Оновити</string>
     <string name="map_more">Більше</string>
     <string name="map_add_to_homescreen">Додати на головний екран</string>
     <string name="map_settings">Налаштування</string>
-    <string name="map_timestamp_last_updated">Last updated: %1s</string>
+    <string name="map_timestamp_last_updated">Востаннє оновлено: %1s</string>
     <string name="map_timestamp_unknown">Невідомо</string>
     <string name="map_timestamp_now">Щойно</string>
     <string name="map_timestamp_minute_ago">%1d хвилину тому</string>
@@ -323,7 +323,7 @@
     <string name="map_searching_dialog_cancel">Закрити</string>
     <string name="map_allow_access_dialog_title">Share location?</string>
     <string name="map_allow_access_dialog_content"><![CDATA[The location of the Tag and your mobile device will be shared with your location member when the Tag device connects to your mobile device. You can stop sharing location at any time by going into the uTag settings. Samsung will collect location and share it with the location members, as well as processing such data in accordance with its <a href="%1s">Privacy Notice</a>]]></string>
-    <string name="map_allow_access_dialog_positive">Share</string>
+    <string name="map_allow_access_dialog_positive">Поділитися</string>
     <string name="map_allow_access_dialog_negative">Скасувати</string>
     <string name="map_passive_mode_dialog_title">Пасивний режим увімкнено</string>
     <string name="map_passive_mode_dialog_content_ring">Passive Mode is currently enabled for this Tag, disable it in the \"More\" settings menu to allow ringing.\n\n<b>Note:</b> You can re-enable Passive Mode after ringing the Tag.</string>
@@ -387,7 +387,7 @@
     <string name="tag_location_history_export_message">Exporting history, please wait…</string>
     <string name="tag_location_history_export_success_toast">Export finished</string>
     <string name="tag_location_history_export_failed_toast">Export failed</string>
-    <string name="tag_location_history_info_title">Location Info</string>
+    <string name="tag_location_history_info_title">Інформація про розташування</string>
     <string name="tag_location_history_info_content_header">Compiled from %1d location(s)</string>
     <string name="tag_location_history_info_content_item">Location %1d:\n\nLatitude: %1s\nLongitude: %1s\nTimestamp: %1s\nAccuracy: %1s\nSpeed: %1s\nRssi: %1s\nBattery: %1s\nMethod: %1s\nFind host: %1s\nNearby: %1s\nOn Demand: %1s\nConnected User ID: %1s\nConnected Device ID: %1s\nD2D Status: %1s\nWas Encrypted: %1s</string>
     <!-- More page -->
@@ -421,16 +421,16 @@
     <string name="tag_more_category_protect">Protect</string>
     <string name="tag_more_lost_mode_on">Увімк</string>
     <string name="tag_more_lost_mode_off">Вимк</string>
-    <string name="tag_more_category_share">Share</string>
+    <string name="tag_more_category_share">Поділитися</string>
     <string name="tag_more_shareable">Share this Tag\'s location</string>
     <string name="tag_more_shareable_content">Share the location of this Tag to members you share your SmartThings household with</string>
     <string name="tag_more_share">Allow access to your location</string>
     <string name="tag_more_advanced">Advanced</string>
     <string name="tag_more_passive_mode_title">Passive Mode</string>
     <string name="tag_more_passive_mode_content_disabled">Disconnects your Tag from this device, keeping it in the \"scanned\" state, at the expense of some functionality</string>
-    <string name="tag_more_passive_mode_content_enabled">On</string>
-    <string name="tag_more_battery">Battery</string>
-    <string name="tag_more_error_title">Error</string>
+    <string name="tag_more_passive_mode_content_enabled">Увімк</string>
+    <string name="tag_more_battery">Батарея</string>
+    <string name="tag_more_error_title">Помилка</string>
     <string name="tag_more_error_content">An error occurred when loading your Tag\'s settings, check your connection and try again later.</string>
     <string name="tag_more_error_close">Закрити</string>
     <string name="tag_more_error_toast">An error occurred, please try again</string>
@@ -464,7 +464,7 @@
     <string name="tag_more_find_device_remote_ring_enabled_title">Enabled on a Samsung device</string>
     <string name="tag_more_find_device_remote_ring_enabled_content">A Samsung phone or tablet has the \"Find phone or tablet\" option enabled for this Tag in SmartThings. Using this option may also ring another device. Disable find phone or tablet in order to prevent this.</string>
     <string name="tag_more_find_device_remote_ring_disable_action">Disable find phone or tablet</string>
-    <string name="tag_more_find_device_vibrate_title">Vibrate</string>
+    <string name="tag_more_find_device_vibrate_title">Вібрація</string>
     <string name="tag_more_find_device_vibrate_content">Vibrate device when ringing to make more noise</string>
     <string name="tag_more_find_device_delay_title">Delay Before Ringing</string>
     <string name="tag_more_find_device_delay_content">Wait 5 seconds before starting to ring, if you accidentally trigger Find my Device this option allows you to cancel before noise is made.</string>
@@ -548,7 +548,7 @@
     <string name="device_is_already_connected_to_your_device">This tag is already in range of your device, so can’t turn on Notify me when it’s found.</string>
     <string name="pairing_lock">Pairing lock</string>
     <string name="pairing_lock_description">This tag is linked to your account. It won\'t be linked to other users.</string>
-    <string name="lost_mode_next">Next</string>
+    <string name="lost_mode_next">Далі</string>
     <string name="lost_mode_settings_switch">Увімкнено</string>
     <string name="lost_mode_settings_category">Personalisation</string>
     <string name="lost_mode_settings_email">Email (required)</string>
