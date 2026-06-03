@@ -8,22 +8,22 @@
     <string name="hooking_progress_toast">Tillämpar mods, vänligen vänta…</string>
     <!-- Landing -->
     <string name="landing_get_started">Kom igång</string>
-    <string name="landing_not_signed_in">You need to finish setup first, open uTag to continue</string>
-    <string name="landing_open">Open uTag</string>
+    <string name="landing_not_signed_in">Du måste först slutföra installationen, öppna uTag för att fortsätta</string>
+    <string name="landing_open">Öppna uTag</string>
     <!-- Mod download -->
     <string name="setup_mod_title">SmartThings</string>
     <string name="setup_mod_info_title">SmartThings Mod</string>
-    <string name="setup_mod_info_content">In order to work with uTag and bypass Samsung\'s requirements, a modified version of SmartThings is required. uTag will guide you through downloading and installing it.\n\n<b>Note:</b> If your device is rooted with Xposed installed, make sure SmartThings is set up, enable the uTag Xposed module, force stop SmartThings and return to uTag to skip this step.</string>
-    <string name="setup_mod_info_action">Start mod download</string>
-    <string name="setup_mod_oneui_title">OneUI Detected</string>
-    <string name="setup_mod_oneui_desc">This device appears to be running OneUI. Using uTag on a device that officially supports SmartThings Find may restrict functionality, break some SmartThings features or cause unexpected errors. <b>OneUI support is experimental, it may not work on your device. Please do not report bugs that occur on this device.</b> You will be required to sign in to SmartThings from the browser, rather than it using the Samsung Account already on your device.</string>
-    <string name="setup_mod_oneui_continue">Continue</string>
-    <string name="setup_mod_oneui_incompatible_title">Incompatible OneUI Version Detected</string>
-    <string name="setup_mod_oneui_incompatible_desc">This device is running a version of OneUI which is not compatible with the SmartThings Mod required for uTag to function. Please use the official Samsung Find app instead.</string>
-    <string name="setup_mod_downloading">Downloading SmartThings…</string>
-    <string name="setup_mod_setting_up">Setting up mod…</string>
-    <string name="setup_mod_setting_up_subtitle">This may take a moment</string>
-    <string name="setup_mod_uninstall_title">Uninstall SmartThings</string>
+    <string name="setup_mod_info_content">För att kunna använda uTag och kringgå Samsungs krav krävs en modifierad version av SmartThings. uTag guidar dig genom nedladdningen och installationen.\n\n<b>Obs!</b> Om din enhet är rootad och har Xposed installerat måste du se till att SmartThings är konfigurerat. Aktivera uTag-modulen i Xposed, tvinga avslut av SmartThings och återgå till uTag för att hoppa över detta steg.</string>
+    <string name="setup_mod_info_action">Påbörja nedladdning av mod</string>
+    <string name="setup_mod_oneui_title">OneUI upptäckt</string>
+    <string name="setup_mod_oneui_desc">Den här enheten verkar köra OneUI. Om du använder uTag på en enhet som officiellt stöder SmartThings Find kan det leda till begränsad funktionalitet, att vissa SmartThings-funktioner slutar fungera eller att oväntade fel uppstår. <b>Stödet för OneUI är i ett experimentellt skede och kanske inte fungerar på din enhet. Rapportera inte eventuella buggar som uppstår på den här enheten.</b> Du måste logga in på SmartThings via webbläsaren istället för att använda det Samsung-konto som redan finns på enheten.</string>
+    <string name="setup_mod_oneui_continue">Fortsätt</string>
+    <string name="setup_mod_oneui_incompatible_title">En inkompatibel version av OneUI har upptäckts</string>
+    <string name="setup_mod_oneui_incompatible_desc">Den här enheten kör en version av OneUI som inte är kompatibel med det SmartThings-mod som krävs för att uTag ska fungera. Använd istället den officiella Samsung Find-appen.</string>
+    <string name="setup_mod_downloading">Laddar ner SmartThings…</string>
+    <string name="setup_mod_setting_up">Konfigurerar mod…</string>
+    <string name="setup_mod_setting_up_subtitle">Det här kan ta en stund</string>
+    <string name="setup_mod_uninstall_title">Avinstallera SmartThings</string>
     <string name="setup_mod_uninstall_content">Since the modified version of SmartThings has a different signature, you must uninstall the currently installed version to continue.\n\n<b>Note:</b> This will clear SmartThings data from your device, requiring you to sign in again.</string>
     <string name="setup_mod_uninstall_action">Uninstall</string>
     <string name="setup_mod_install_title">Ready to install</string>
