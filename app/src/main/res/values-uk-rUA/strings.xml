@@ -296,9 +296,9 @@
     <string name="map_address_encrypted">Зашифроване розташування</string>
     <string name="map_address_unknown">Невідома адреса</string>
     <string name="map_address_denied">Couldn\'t get location</string>
-    <string name="map_owner">%1s\'s Tag</string>
-    <string name="map_owner_generic">Shared Tag</string>
-    <string name="map_allow_location_access_title">Allow access to your location</string>
+    <string name="map_owner">Мітка %1s</string>
+    <string name="map_owner_generic">Спільна мітка</string>
+    <string name="map_allow_location_access_title">Дозволити доступ до Вашого розташування</string>
     <string name="map_allow_location_access_content">To locate and control this Tag, you need to allow uTag and SmartThings to access your location.</string>
     <string name="map_passive">Пасивний режим</string>
     <string name="map_time_unknown">Невідомий час</string>
@@ -321,7 +321,7 @@
     <string name="map_searching_dialog_content">uTag couldn\'t connect to your %1s. Make sure you\'re in Bluetooth range and try again, restart SmartThings &amp; uTag if the problem persists.\n\nIf you are out of range and searching for your Tag, enable searching mode. You will be notified when it is found by another device.</string>
     <string name="map_searching_dialog_enable_searching">Увімкнути режим пошуку</string>
     <string name="map_searching_dialog_cancel">Закрити</string>
-    <string name="map_allow_access_dialog_title">Share location?</string>
+    <string name="map_allow_access_dialog_title">Поділитися розташуванням?</string>
     <string name="map_allow_access_dialog_content"><![CDATA[The location of the Tag and your mobile device will be shared with your location member when the Tag device connects to your mobile device. You can stop sharing location at any time by going into the uTag settings. Samsung will collect location and share it with the location members, as well as processing such data in accordance with its <a href="%1s">Privacy Notice</a>]]></string>
     <string name="map_allow_access_dialog_positive">Поділитися</string>
     <string name="map_allow_access_dialog_negative">Скасувати</string>
@@ -335,15 +335,15 @@
     <string name="tag_picker_title">Обрати мітку</string>
     <string name="tag_picker_show_all_markers_title">Show all Tags on map</string>
     <string name="tag_picker_show_all_markers_content">Show a marker for each Tag on the map, which can be clicked to select it</string>
-    <string name="tag_picker_category_favourites">Favourites</string>
+    <string name="tag_picker_category_favourites">Вибране</string>
     <string name="tag_picker_category_mine">Ваші мітки</string>
-    <string name="tag_picker_category_shared">%1s\'s Tags</string>
-    <string name="tag_picker_category_shared_unknown">Shared Tags</string>
-    <string name="tag_picker_favourites_tip_title">Show multiple Tags on the map</string>
+    <string name="tag_picker_category_shared">Мітки %1s</string>
+    <string name="tag_picker_category_shared_unknown">Спільні мітки</string>
+    <string name="tag_picker_favourites_tip_title">Показувати декілька міток на мапі</string>
     <string name="tag_picker_favourites_tip_content">Set your Tags as a favourites and they will show on the map as well as your selected Tag</string>
-    <string name="tag_picker_favourites_tip_action">Edit Favourites</string>
-    <string name="tag_picker_shared">%1s\'s Tag</string>
-    <string name="tag_picker_selected">Selected</string>
+    <string name="tag_picker_favourites_tip_action">Редагувати обране</string>
+    <string name="tag_picker_shared">Мітка %1s</string>
+    <string name="tag_picker_selected">Обрано</string>
     <string name="tag_picker_agreement_required">Agreement required</string>
     <string name="tag_picker_not_allowed">Не дозволено</string>
     <string name="tag_picker_shared_and_selected">%1s\'s Tag • Selected</string>
@@ -409,7 +409,7 @@
     <string name="tag_more_notify_when_disconnected_notifications_disabled_title">Notifications disabled</string>
     <string name="tag_more_notify_when_disconnected_notifications_disabled_content">Notifications for uTag are disabled, they must be enabled for this option to work</string>
     <string name="tag_more_notify_when_disconnected_notifications_disabled_content_channel">The <b>Left Behind Alerts</b> notification channel is disabled, it must be enabled for this option to work</string>
-    <string name="tag_more_notify_when_disconnected_notifications_disabled_action">Notification settings</string>
+    <string name="tag_more_notify_when_disconnected_notifications_disabled_action">Налаштування сповіщень</string>
     <string name="tag_more_notify_when_disconnected_notifications_silenced_title">Notifications silenced</string>
     <string name="tag_more_notify_when_disconnected_notifications_silenced_content">The <b>Left Behind Alerts</b> notification channel has been silenced, so you may not notice left behind alerts</string>
     <string name="tag_more_notify_when_disconnected_notifications_dnd_title">Do not Disturb enabled</string>
@@ -418,7 +418,7 @@
     <string name="tag_more_notify_when_disconnected_full_screen_permission_required_content">uTag requires the \"full screen intents\" permission to start ringing from the background</string>
     <string name="tag_more_notify_when_disconnected_full_screen_permission_required_action">Allow permission in settings</string>
     <string name="tag_more_lost_mode_title">Lost mode</string>
-    <string name="tag_more_category_protect">Protect</string>
+    <string name="tag_more_category_protect">Захистити</string>
     <string name="tag_more_lost_mode_on">Увімк</string>
     <string name="tag_more_lost_mode_off">Вимк</string>
     <string name="tag_more_category_share">Поділитися</string>
@@ -426,7 +426,7 @@
     <string name="tag_more_shareable_content">Share the location of this Tag to members you share your SmartThings household with</string>
     <string name="tag_more_share">Allow access to your location</string>
     <string name="tag_more_advanced">Advanced</string>
-    <string name="tag_more_passive_mode_title">Passive Mode</string>
+    <string name="tag_more_passive_mode_title">Пасивний режим</string>
     <string name="tag_more_passive_mode_content_disabled">Disconnects your Tag from this device, keeping it in the \"scanned\" state, at the expense of some functionality</string>
     <string name="tag_more_passive_mode_content_enabled">Увімк</string>
     <string name="tag_more_battery">Батарея</string>
@@ -449,10 +449,10 @@
     <string name="tag_more_find_device_content_error">Not working. Tap for more info.</string>
     <string name="tag_more_find_device_switch">Enable Find my Device</string>
     <string name="tag_more_find_device_category_settings">Налаштування</string>
-    <string name="tag_more_find_device_notifications_disabled_title">Notifications disabled</string>
+    <string name="tag_more_find_device_notifications_disabled_title">Сповіщення вимкнено</string>
     <string name="tag_more_find_device_notifications_disabled_content">Notifications for uTag are disabled, they must be enabled for this option to work</string>
     <string name="tag_more_find_device_notifications_disabled_content_channel">The <b>Find my Device</b> notification channel is disabled, it must be enabled for this option to work</string>
-    <string name="tag_more_find_device_notifications_disabled_action">Notification settings</string>
+    <string name="tag_more_find_device_notifications_disabled_action">Налаштування сповіщень</string>
     <string name="tag_more_find_device_notifications_silenced_title">Notifications silenced</string>
     <string name="tag_more_find_device_notifications_silenced_content">The <b>Find my Device</b> notification channel has been silenced, so uTag will not be able to start ringing. Set it to <b>Default</b> and enable <b>Pop on screen</b> to allow ringing</string>
     <string name="tag_more_find_device_full_screen_permission_required_title">Permission required</string>
@@ -468,7 +468,7 @@
     <string name="tag_more_find_device_vibrate_content">Vibrate device when ringing to make more noise</string>
     <string name="tag_more_find_device_delay_title">Delay Before Ringing</string>
     <string name="tag_more_find_device_delay_content">Wait 5 seconds before starting to ring, if you accidentally trigger Find my Device this option allows you to cancel before noise is made.</string>
-    <string name="tag_more_find_device_volume_title">Volume</string>
+    <string name="tag_more_find_device_volume_title">Гучність</string>
     <string name="tag_more_find_device_volume_content">The volume your device will ring at.\n\n<b>Warning:</b> Setting a low volume &amp; disabling vibration may make your device ringing hard to hear!</string>
     <string name="tag_more_find_device_footer_title">Знайти мій пристрій</string>
     <string name="tag_more_find_device_footer_content">When you double press the button on %1s, your phone will start ringing for 60 seconds, or until stopped.</string>
@@ -487,14 +487,14 @@
     <string name="tag_more_automation_content_disabled_passive">Disable Passive Mode to use this option</string>
     <string name="tag_more_automation_shared_tag_warning_dialog_title">Shared Tag Warning</string>
     <string name="tag_more_automation_shared_tag_warning_dialog_content">This Tag is shared with other users. The Automations option only sends button press events to the first device connected to a Tag, if multiple are connected at once. If you share your Tag with another household member, pressing the button may send the event the wrong device, or none at all. Therefore, this option works best with Tags that are not shared, if you have one.</string>
-    <string name="tag_more_automation_shared_tag_warning_dialog_dismiss">Understood</string>
-    <string name="tag_more_automation_press_title">Pressed</string>
-    <string name="tag_more_automation_press_content">Launch %1s</string>
+    <string name="tag_more_automation_shared_tag_warning_dialog_dismiss">Зрозуміло</string>
+    <string name="tag_more_automation_press_title">Натиснуто</string>
+    <string name="tag_more_automation_press_content">Запустити %1s</string>
     <string name="tag_more_automation_press_content_unset">No action set</string>
     <string name="tag_more_automation_press_content_error">Additional permission required</string>
     <string name="tag_more_automation_press_content_disabled">Disable the \"Pressed\" Automation action in SmartThings to use this option</string>
-    <string name="tag_more_automation_held_title">Held</string>
-    <string name="tag_more_automation_held_content">Launch %1s</string>
+    <string name="tag_more_automation_held_title">Утримувати</string>
+    <string name="tag_more_automation_held_content">Запустити %1s</string>
     <string name="tag_more_automation_held_content_unset">No action set</string>
     <string name="tag_more_automation_held_content_error">Additional permission required</string>
     <string name="tag_more_automation_held_content_disabled">Disable the \"Held\" Automation action in SmartThings to use this option</string>
@@ -517,7 +517,7 @@
     <string name="tag_more_automation_permission_restricted_title">Restricted settings</string>
     <string name="tag_more_automation_permission_restricted_content">If you get a message stating that \"Display over other apps\" is a <b>Restricted Setting</b>, you will need to allow restricted settings in the app info for uTag.\n\nTo do this:\n• Open the App Info page for uTag\n• In the overflow menu, select \"Allow restricted settings\"\n• Return to uTag and try to enable the \"Display over other apps\" permission again.</string>
     <string name="tag_more_automation_permission_restricted_action">Open App Info</string>
-    <string name="tag_more_automation_type_app_title">Launch App</string>
+    <string name="tag_more_automation_type_app_title">Запустити додаток</string>
     <string name="tag_more_automation_type_app_content">Start an app when this automation is invoked.</string>
     <string name="tag_more_automation_type_camera_title">Launch Camera</string>
     <string name="tag_more_automation_type_camera_title_short">Камера</string>
@@ -529,9 +529,9 @@
     <string name="tag_more_automation_type_tasker_dialog_title">Помилка</string>
     <string name="tag_more_automation_type_tasker_dialog_content">No Tasker tasks found. Make sure you\'ve created at least one Task, and that \"External Access\" in Tasker\'s Settings &gt; Misc is enabled to use this option.</string>
     <string name="tag_more_automation_type_tasker_dialog_close">Закрити</string>
-    <string name="button_volume_level_off">Muted</string>
-    <string name="button_volume_level_low">Low</string>
-    <string name="button_volume_level_high">High</string>
+    <string name="button_volume_level_off">Вимкнено</string>
+    <string name="button_volume_level_low">Низький</string>
+    <string name="button_volume_level_high">Високий</string>
     <!-- More Battery Dialog -->
     <string name="tag_more_battery_dialog_title">Інформація про акумулятор</string>
     <string name="tag_more_battery_dialog_content">The battery level only updates when the Tag is near this phone or another Galaxy device. If the Tag\'s battery is low, you won\'t be able to install updates or the find the Tag using UWB.</string>
@@ -611,18 +611,18 @@
     <!-- Battery levels -->
     <string name="battery_unknown">Невідомо</string>
     <string name="battery_very_low">Battery replacement required</string>
-    <string name="battery_low">Low</string>
-    <string name="battery_sufficient">Sufficient</string>
+    <string name="battery_low">Низький</string>
+    <string name="battery_sufficient">Достатній</string>
     <!-- Only used in export -->
-    <string name="battery_full">Full</string>
-    <string name="battery_update">Updated %1s</string>
+    <string name="battery_full">Заряджено</string>
+    <string name="battery_update">Оновлено %1s</string>
     <!-- Device Types -->
-    <string name="device_type_galaxy_phone">Galaxy Phone</string>
-    <string name="device_type_galaxy_tablet">Galaxy Tablet</string>
-    <string name="device_type_none_galaxy_phone">Non-Galaxy Phone</string>
-    <string name="device_type_none_galaxy_tablet">Non-Galaxy Tablet</string>
+    <string name="device_type_galaxy_phone">Телефон Galaxy</string>
+    <string name="device_type_galaxy_tablet">Планшет Galaxy</string>
+    <string name="device_type_none_galaxy_phone">Не телефон Galaxy</string>
+    <string name="device_type_none_galaxy_tablet">Не планшет Galaxy</string>
     <!-- D2D Status -->
-    <string name="d2d_status_connected">Connected</string>
+    <string name="d2d_status_connected">Під\'єднано</string>
     <string name="d2d_status_scanned">Scanned</string>
     <!-- Privacy notice -->
     <string name="privacy_notice_title">Locate your Tags anytime, anywhere</string>
@@ -649,15 +649,15 @@
     <string name="location_history_guide_text_1">Location history is only available for the past 7 days.</string>
     <string name="location_history_guide_text_2">Locations are approximate and may vary even if the device hasn\'t moved.</string>
     <string name="location_history_guide_text_3">Location history will be unavailable if there were no other Galaxy devices near the device during the past 7 days.</string>
-    <string name="location_history_guide_button">Got it</string>
+    <string name="location_history_guide_button">Зрозуміло</string>
     <!-- PIN Entry dialog -->
-    <string name="tag_pin_entry_title">Enter PIN</string>
-    <string name="tag_pin_entry_content">Enter your PIN for %1s to decrypt its location.</string>
-    <string name="tag_pin_entry_content_alt">Enter your PIN for %1s to decrypt its location history.</string>
-    <string name="tag_pin_entry_error">Incorrect PIN entered, try again</string>
+    <string name="tag_pin_entry_title">Уведіть ПІН</string>
+    <string name="tag_pin_entry_content">Уведіть власний ПІН для %1s, щоб дешифрувати його розташування.</string>
+    <string name="tag_pin_entry_content_alt">Уведіть власний ПІН для %1s, щоб дешифрувати його історію розташування.</string>
+    <string name="tag_pin_entry_error">Уведено неправильний ПІН, спробуйте ще раз</string>
     <string name="tag_pin_entry_save">Securely store PIN on device to prevent needing to enter again</string>
     <!-- Settings > Encryption -->
-    <string name="settings_encryption_set_pin_title">Set PIN</string>
+    <string name="settings_encryption_set_pin_title">Установити ПІН</string>
     <string name="settings_encryption_set_pin_content">Set a PIN for offline location encryption</string>
     <string name="settings_encryption_reset_pin_title">Reset PIN</string>
     <string name="settings_encryption_reset_pin_content">Set on %1s</string>
@@ -685,10 +685,10 @@
     <string name="settings_encryption_pin_timeout_sixty_minutes">1 година</string>
     <string name="settings_encryption_enter_pin">Enter PIN</string>
     <string name="settings_encryption_enter_pin_content">You will need this PIN to access locations reported by other Galaxy devices, so make sure it\'s memorable!</string>
-    <string name="settings_encryption_confirm_pin">Confirm PIN</string>
-    <string name="settings_encryption_mismatch">PINs do not match</string>
-    <string name="settings_encryption_success">PIN changed</string>
-    <string name="settings_encryption_error">Error changing PIN, please try again</string>
+    <string name="settings_encryption_confirm_pin">Підтвердити ПІН</string>
+    <string name="settings_encryption_mismatch">Коди не збігаються</string>
+    <string name="settings_encryption_success">ПІН змінено</string>
+    <string name="settings_encryption_error">Помилка зміни ПІН, спробуйте ще раз</string>
     <string name="settings_encryption_clear_saved_pins_title">Clear Stored PIN</string>
     <string name="settings_encryption_clear_saved_pins_content">Delete the stored PIN from encrypted storage, you will be prompted to enter your PIN when it is next required</string>
     <string name="settings_encryption_clear_saved_pins_content_disabled">No PIN is currently saved in encrypted storage</string>
@@ -773,17 +773,17 @@
     <string name="nearby_loading">З\'єднання з %1s…</string>
     <string name="nearby_loading_sub"><b>Note:</b> If your Tag is nearby but failing to connect, try turning Bluetooth off and on again or rebooting.</string>
     <string name="nearby_its_far_away">It\'s far away</string>
-    <string name="nearby_its_here">It\'s here</string>
+    <string name="nearby_its_here">Вона тут</string>
     <string name="nearby_its_near_you">Вона поруч з Вами</string>
     <string name="nearby_its_not_far_from_here">Вона недалеко звідси</string>
-    <string name="nearby_look_around_this_area">Look around this area</string>
-    <string name="nearby_distance_metres">%1sm away</string>
-    <string name="nearby_distance_feet">%1sft away</string>
+    <string name="nearby_look_around_this_area">Роздивіться у цій ділянці</string>
+    <string name="nearby_distance_metres">У %1s м від Вас</string>
+    <string name="nearby_distance_feet">У %1s футах від Вас</string>
     <string name="nearby_turn_left">Поверніть ліворуч</string>
     <string name="nearby_turn_right">Поверніть праворуч</string>
-    <string name="nearby_look_up">Look up</string>
-    <string name="nearby_look_down">Look down</string>
-    <string name="nearby_go_forward">Go forward</string>
+    <string name="nearby_look_up">Подивіться вгору</string>
+    <string name="nearby_look_down">Подивіться вниз</string>
+    <string name="nearby_go_forward">Ідіть вперед</string>
     <string name="nearby_its_behind_you">Вона позаду вас</string>
     <string name="nearby_move_around">Move around to find the Tag</string>
     <string name="nearby_signal_weaker">Signal getting weaker</string>
@@ -800,7 +800,7 @@
     <string name="search_nearby_uwb_disabled_content">Ultra-wideband, precise searching is available on your device but UWB is disabled. Enable UWB to allow precise searching?</string>
     <string name="search_nearby_uwb_disabled_positive">Увімкнути</string>
     <string name="search_nearby_uwb_disabled_negative">Не зараз</string>
-    <string name="search_nearby_bluetooth_disabled_title">Bluetooth Disabled</string>
+    <string name="search_nearby_bluetooth_disabled_title">Bluetooth вимкнено</string>
     <string name="search_nearby_bluetooth_disabled_content">Search nearby requires Bluetooth, enable Bluetooth to start searching?</string>
     <string name="search_nearby_bluetooth_disabled_positive">Увімкнути</string>
     <string name="search_nearby_bluetooth_disabled_negative">Скасувати</string>
@@ -818,8 +818,8 @@
     <string name="notification_content_background_service_battery">uTag requires battery optimisation be disabled for %1s, tap to disable</string>
     <string name="notification_title_background_service_permissions">uTag Error</string>
     <string name="notification_content_background_service_permissions">SmartThings requires extra permissions for uTag to work, tap for more info</string>
-    <string name="notification_action_background_service_error_action">Retry</string>
-    <string name="notification_title_bluetooth_error">Bluetooth Disabled</string>
+    <string name="notification_action_background_service_error_action">Повторити</string>
+    <string name="notification_title_bluetooth_error">Bluetooth вимкнено</string>
     <string name="notification_content_bluetooth_error">uTag requires Bluetooth to connect to your Tags, tap to enable</string>
     <string name="notification_title_disconnect">Left Behind Alert</string>
     <string name="notification_content_disconnect">Your %1s has been left behind!</string>
