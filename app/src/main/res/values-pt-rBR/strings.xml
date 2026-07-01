@@ -166,7 +166,7 @@
     <string name="settings_chaser_info_title">Contributing to the Samsung Find my Everything network</string>
     <string name="settings_chaser_info_content">When enabled, uTag will send the location of nearby detected Tags during location refreshes, to assist other SmartTag users in locating their items.\n\nLocations are completely anonymous, and may be encrypted if the Tag has location encryption enabled.</string>
     <string name="settings_chaser_count_title">Contribuições de rede</string>
-    <string name="settings_chaser_count_content_one"></string>
+    <string name="settings_chaser_count_content_one">You have contributed %1d location to the Find my Everything network</string>
     <string name="settings_chaser_count_content_other">You have contributed %1d locations to the Find my Everything network</string>
     <string name="settings_chaser_error_title">Erro</string>
     <string name="settings_chaser_error_content">An error occurred loading the certificate required for this feature, so it is not available on your device.</string>
